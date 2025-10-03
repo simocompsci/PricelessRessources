@@ -13,7 +13,7 @@ export default function HomeScreen() {
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
+          source={require('@/assets/images/pexels-amanda-george-85634-2978800.jpg')}
           style={styles.reactLogo}
         />
       }>
@@ -22,7 +22,8 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Step 1: Hello Everyone</ThemedText>
+        <ThemedText type="subtitle">This is my first time doing mobile dev</ThemedText>
         <ThemedText>
           Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
           Press{' '}
@@ -89,8 +90,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 178,
-    width: 290,
+    height: 320,
+    width: 500,
     bottom: 0,
     left: 0,
     position: 'absolute',
