@@ -21,12 +21,12 @@ export default function Hero() {
       </section>
 
       <section className='mt-80'>
-        <div className="relative mx-auto mt-55">
+        <div className="relative mx-auto mt-150">
           {/* Blue rounded background */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-gray-400 w-[1400px] h-[350px] rounded-4xl"></div>
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-gray-400 w-[1400px] h-[700px] rounded-4xl"></div>
 
           {/* Image container */}
-          <div className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[1200px] h-[450px]  overflow-hidden z-10">
+          <div className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[1200px] h-[850px]  overflow-hidden z-10">
             <Image
               src="/images/pexels-tara-winstead-8383412.jpg"   
               alt="papers"
@@ -35,11 +35,9 @@ export default function Hero() {
 
           </div>
         </div>
-
-
-
-
       </section>
+
+      <h1 className='text-center text-9xl font-serif mt-20 '>About Us</h1>
     </>
 
 
