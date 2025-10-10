@@ -1,4 +1,5 @@
-import React from "react";
+'use client'
+import React, { useState, useEffect } from "react";
 import { ArrowRightIcon } from "lucide-react";
 import { Bungee_Shade } from 'next/font/google'
 import Image from "next/image";
@@ -9,7 +10,17 @@ const BungeeShade = Bungee_Shade({
   display: 'swap',
 })
 
+
 export default function Hero() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile(); // initial check
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   return (
     <>
       {/* HERO TEXT SECTION */}
@@ -21,7 +32,7 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="text-lg md:text-xl font-light text-gray-600 max-w-2xl leading-relaxed">
+        <p className="text-lg md:text-xl font-light text-gray-900 max-w-2xl leading-relaxed">
           Save all of your helpful resources in one place — videos, articles,
           tutorials, and more — so you can easily find them when you need them most.
         </p>
@@ -35,18 +46,23 @@ export default function Hero() {
       </section>
 
       {/* IMAGE SECTION (unchanged layout) */}
-      <section className="mt-80">
+      <section className="mt-75 md:mt-80">
         <div className="relative mx-auto mt-150">
           {/* Blue rounded background */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-gray-400 w-[1400px] h-[700px] rounded-4xl"></div>
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-gradient-to-b from-gray-300 to-gray-100 w-[350px] h-[730px] md:w-[1400px] md:h-[780px] rounded-4xl"></div>
 
           {/* Image container */}
-          <div className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[1200px] h-[850px] overflow-hidden z-10">
+          <div className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[300px] h-[800px] md:w-[1200px] md:h-[850px] overflow-hidden z-10">
             <Image
-              src="/images/pexels-tara-winstead-8383412.jpg"
+              src={
+                isMobile
+                  ? "/images/pexels-pixabay-276092.jpg" // 👈 your mobile image here
+                  : "/images/pexels-tara-winstead-8383412.jpg" // desktop image
+              }
               alt="papers"
               fill
-              className="object-cover rounded-t-4xl"
+              className="object-cover rounded-4xl"
+
             />
           </div>
         </div>
