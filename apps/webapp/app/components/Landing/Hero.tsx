@@ -57,7 +57,7 @@ export default function Hero() {
               src={
                 isMobile
                   ? "/images/pexels-pixabay-276092.jpg" // 👈 your mobile image here
-                  : "/images/pexels-tara-winstead-8383412.jpg" // desktop image
+                  : "/images/pexels-amanda-george-85634-2978800.jpg" // desktop image
               }
               alt="papers"
               fill

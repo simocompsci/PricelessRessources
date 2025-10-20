@@ -64,7 +64,7 @@ export default function Features() {
                             </div>
                             <div className="flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
                                 <img
-                                    src="/images/pexels-droosmo-2945595.jpg"
+                                    src="/images/pexels-amanda-george-85634-2978800.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[500px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
@@ -111,9 +111,9 @@ export default function Features() {
                             </div>
                             <div className="flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
                                 <img
-                                    src="/images/pexels-droosmo-2945595.jpg"
+                                    src="/images/pexels-amanda-george-85634-2978800.jpg"
                                     alt="Product Preview"
-                                    className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
+                                    className="w-full max-w-sm h-[500px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
                             </div>
 
@@ -158,9 +158,9 @@ export default function Features() {
                             </div>
                             <div className="flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
                                 <img
-                                    src="/images/pexels-droosmo-2945595.jpg"
+                                    src="/images/pexels-amanda-george-85634-2978800.jpg"
                                     alt="Product Preview"
-                                    className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
+                                    className="w-full max-w-sm h-[500px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
                             </div>
 
