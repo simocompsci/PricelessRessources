@@ -1,7 +1,7 @@
 import React from 'react'
 import { Bungee_Shade } from 'next/font/google'
 import { Mona_Sans } from 'next/font/google'
-import Image from 'next/image'
+import {DM_Sans} from 'next/font/google'
 
 const BungeeShade = Bungee_Shade({
     subsets: ['latin'],
@@ -10,6 +10,12 @@ const BungeeShade = Bungee_Shade({
 })
 
 const MonaSans = Mona_Sans({
+    subsets: ['latin'],
+    weight: '800',
+    display: 'swap',
+})
+
+const DmSans = DM_Sans({
     subsets: ['latin'],
     weight: '800',
     display: 'swap',
@@ -26,14 +32,14 @@ export default function Features() {
 
                     <div className='flex flex-col justify-between gap-20 mt-20'>
                         <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
-                            <div className='flex flex-col items-start ml-10 md:ml-20 gap-5'>
+                            <div className='flex flex-col items-start ml-10 md:ml-30 gap-5'>
                                 <div className='bg-yellow-300 p-3 rounded-3xl'>
-                                    <span className='text-center text-sm font-sans' style={{ fontWeight: '500' }}>
+                                    <span className={`${DmSans.className}text-center text-sm`}>
                                         First Feature
                                     </span>
                                 </div>
                                 <h1
-                                    className={`${MonaSans.className} text-4xl md:text-6xl font-bold text-start leading-tight max-w-xl md:max-w-xl`}
+                                    className={`${DmSans.className} text-4xl md:text-6xl font-bold text-start leading-tight max-w-xl md:max-w-xl`}
                                 >
                                     Use Our Product<br />For Your Benefit
                                 </h1>
