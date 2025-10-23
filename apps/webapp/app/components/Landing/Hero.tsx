@@ -49,7 +49,7 @@ export default function Hero() {
       <section className="mt-75 md:mt-80">
         <div className="relative mx-auto mt-150">
           {/* Blue rounded background */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-gradient-to-b from-gray-300 to-gray-100 w-[350px] h-[730px] md:w-[1400px] md:h-[780px] rounded-4xl"></div>
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 bg-gradient-to-b from-gray-300 to-gray-100 w-[350px] h-[730px] md:w-[1300px] md:h-[780px] rounded-4xl"></div>
 
           {/* Image container */}
           <div className="absolute left-1/2 -translate-x-1/2 bottom-0 w-[300px] h-[800px] md:w-[1200px] md:h-[850px] overflow-hidden z-10">
