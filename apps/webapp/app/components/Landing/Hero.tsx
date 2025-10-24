@@ -56,8 +56,8 @@ export default function Hero() {
             <Image
               src={
                 isMobile
-                  ? "/images/pexels-pixabay-276092.jpg" // 👈 your mobile image here
-                  : "/images/pexels-amanda-george-85634-2978800.jpg" // desktop image
+                  ? "/images/dragon.jpg" // 👈 your mobile image here
+                  : "/images/skull.jpg" // desktop image
               }
               alt="papers"
               fill

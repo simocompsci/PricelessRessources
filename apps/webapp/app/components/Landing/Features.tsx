@@ -51,17 +51,61 @@ export default function Features() {
 
 
                             </div>
-                            <div className="flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
+                            <div className="relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
+
                                 <img
                                     src="/images/Knight.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
+
+
+                                <div className="absolute right-0 flex flex-col gap-4 pr-1">
+                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl border border-gray-300"></div>
+                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl border border-gray-300"></div>
+                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl border border-gray-300"></div>
+                                </div>
                             </div>
+
 
                         </div>
 
-                        <div className='grid grid-cols-1 md:grid-cols-2 items-center bg-black py-15 md:py-5'>
+                        <div className="grid grid-cols-1 md:grid-cols-2 items-center bg-black py-15 md:py-5">
+                            {/* 🖼️ Image section */}
+                            <div className="order-2 md:order-1 relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-4">
+                                <img
+                                    src="/images/Knight.jpg"
+                                    alt="Product Preview"
+                                    className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
+                                />
+
+                                <div className="absolute left-0 top-40 w-70 h-40 bg-gray-200 rounded-2xl pl-1 border border-gray-300"></div>
+                                <div className="absolute right-0 bottom-40 w-70 h-40 bg-gray-200 rounded-2xl pr-1 border border-gray-300"></div>
+                            </div>
+
+                            {/* 📝 Text section */}
+                            <div className="order-1 md:order-2 flex flex-col items-start ml-10 md:mr-10 gap-5">
+                                <div className="bg-yellow-300 p-5 rounded-3xl">
+                                    <span className={`${MonaSans.className} text-center text-4xl`}>
+                                        First Feature
+                                    </span>
+                                </div>
+
+                                <h1
+                                    className={`${MonaSans.className} text-4xl md:text-7xl text-white font-bold text-start leading-tight max-w-xl md:max-w-2xl`}
+                                >
+                                    Use Our Product<br />For Your Benefit
+                                </h1>
+
+                                <p className="text-lg md:text-xl leading-relaxed text-white text-start">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore corrupti,
+                                    dolor aperiam similique architecto sint voluptates. Quidem fugiat molestias
+                                    nisi obcaecati, deleniti maxime
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='grid grid-cols-1 md:grid-cols-2 items-center py-15 md:py-5'>
                             <div className='flex flex-col items-start ml-10 md:ml-30 gap-5'>
                                 <div className='bg-yellow-300 p-5 rounded-3xl'>
                                     <span className={`${MonaSans.className} text-center text-4xl`}>
@@ -69,27 +113,33 @@ export default function Features() {
                                     </span>
                                 </div>
                                 <h1
-                                    className={`${MonaSans.className} text-4xl md:text-7xl text-white font-bold text-start leading-tight max-w-xl md:max-w-2xl`}
+                                    className={`${MonaSans.className} text-4xl md:text-7xl text-black font-bold text-start leading-tight max-w-xl md:max-w-2xl`}
                                 >
                                     Use Our Product<br />For Your Benefit
                                 </h1>
 
 
-                                <p className='text-lg md:text-xl leading-relaxed text-white text-start'>
+                                <p className='text-lg md:text-xl leading-relaxed text-black text-start'>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore corrupti, dolor aperiam similique architecto sint voluptates. Quidem fugiat molestias nisi obcaecati, deleniti maxime
                                 </p>
 
 
                             </div>
-                            <div className="flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
+                            <div className="relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
+
                                 <img
                                     src="/images/Knight.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
+
+
+                                <div className="absolute left-0 w-80 h-70 bg-gray-200 rounded-2xl pl-1 border border-gray-300"></div>
                             </div>
 
+
                         </div>
+
                     </div>
                 </div>
             </section>
