@@ -1,10 +1,24 @@
 import React from 'react'
 import { Bungee_Shade } from 'next/font/google'
+import { Mona_Sans } from 'next/font/google'
+import { DM_Sans } from 'next/font/google'
 
 const BungeeShade = Bungee_Shade({
-  subsets: ['latin'],
-  weight: '400',
-  display: 'swap',
+    subsets: ['latin'],
+    weight: '400',
+    display: 'swap',
+})
+
+const MonaSans = Mona_Sans({
+    subsets: ['latin'],
+    weight: '800',
+    display: 'swap',
+})
+
+const DmSans = DM_Sans({
+    subsets: ['latin'],
+    weight: '800',
+    display: 'swap',
 })
 
 export default function About() {
@@ -13,7 +27,7 @@ export default function About() {
             <section className="flex flex-col md:flex-row justify-between items-start mt-20 gap-12 mx-10 md:mx-30">
                 {/* LEFT COLUMN */}
                 <div className="md:w-2/5">
-                    <h1 className={`${BungeeShade.className} text-5xl md:text-7xl font-serif mb-6 leading-tight`}>
+                    <h1 className={`${MonaSans.className} text-5xl md:text-8xl font-serif mb-6 leading-tight`}>
                         About Us
                     </h1>
                     <p className="text-lg md:text-xl text-gray-800 leading-relaxed">

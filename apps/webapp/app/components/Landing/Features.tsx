@@ -26,7 +26,7 @@ export default function Features() {
         <>
             <section className='mt-20 text-center'>
                 <div>
-                    <h1 className={`${BungeeShade.className} text-5xl md:text-7xl font-serif mb-6 leading-tight`}>
+                    <h1 className={`${MonaSans.className} text-5xl md:text-8xl font-serif mb-6 leading-tight`}>
                         Features
                     </h1>
 
@@ -61,9 +61,9 @@ export default function Features() {
 
 
                                 <div className="absolute right-0 flex flex-col gap-4 pr-1">
-                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl border border-gray-300"></div>
-                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl border border-gray-300"></div>
-                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl border border-gray-300"></div>
+                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl"></div>
+                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl"></div>
+                                    <div className="w-70 h-40 bg-gray-200 rounded-2xl"></div>
                                 </div>
                             </div>
 
@@ -79,8 +79,8 @@ export default function Features() {
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
 
-                                <div className="absolute left-0 top-40 w-70 h-40 bg-gray-200 rounded-2xl pl-1 border border-gray-300"></div>
-                                <div className="absolute right-0 bottom-40 w-70 h-40 bg-gray-200 rounded-2xl pr-1 border border-gray-300"></div>
+                                <div className="absolute left-0 top-40 w-70 h-40 bg-gray-200 rounded-2xl pl-1"></div>
+                                <div className="absolute right-0 bottom-40 w-70 h-40 bg-gray-200 rounded-2xl pr-1"></div>
                             </div>
 
                             {/* 📝 Text section */}
@@ -134,7 +134,7 @@ export default function Features() {
                                 />
 
 
-                                <div className="absolute left-0 w-80 h-70 bg-gray-200 rounded-2xl pl-1 border border-gray-300"></div>
+                                <div className="absolute left-0 w-80 h-70 bg-gray-200 rounded-2xl pl-1"></div>
                             </div>
 
 
