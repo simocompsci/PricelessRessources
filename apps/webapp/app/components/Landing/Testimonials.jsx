@@ -24,7 +24,7 @@ export default function Testimonials() {
         <div className="flex flex-col justify-center items-center mx-auto mt-20 px-4">
             <div>
                 <h1
-                    className={`${MonaSans.className} text-4xl md:text-8xl text-black text-center font-bold leading-tight max-w-xl md:max-w-4xl mx-auto`}
+                    className={`${BungeeShade.className} text-4xl md:text-7xl text-black text-center font-bold leading-tight max-w-xl md:max-w-4xl mx-auto`}
                 >
                     Hear From People Like You And Me
                 </h1>

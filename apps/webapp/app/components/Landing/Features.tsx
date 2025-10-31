@@ -26,7 +26,7 @@ export default function Features() {
         <>
             <section className='mt-20 text-center'>
                 <div>
-                    <h1 className={`${MonaSans.className} text-5xl md:text-8xl font-serif mb-6 leading-tight`}>
+                    <h1 className={`${BungeeShade.className} text-5xl md:text-7xl font-serif mb-6 leading-tight`}>
                         Features
                     </h1>
 
