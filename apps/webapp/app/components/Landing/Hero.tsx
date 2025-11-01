@@ -71,7 +71,7 @@ export default function Hero() {
               src={
                 isMobile
                   ? "/images/dragon.jpg" // 👈 your mobile image here
-                  : "/images/skull.jpg" // desktop image
+                  : "/images/firmbee-com-jrh5lAq-mIs-unsplash.jpg" // desktop image
               }
               alt="papers"
               fill

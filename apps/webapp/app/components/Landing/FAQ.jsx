@@ -40,10 +40,7 @@ export default function FAQ() {
                                 design. Built with premium materials, it offers unparalleled
                                 performance and reliability.
                             </p>
-                            <p className='text-lg md:text-xl leading-relaxed text-black text-start'>
-                                Key features include advanced processing capabilities, and an
-                                intuitive user interface designed for both beginners and experts.
-                            </p>
+                            
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
@@ -54,10 +51,7 @@ export default function FAQ() {
                                 Standard delivery takes 3-5 business days, while express shipping
                                 ensures delivery within 1-2 business days.
                             </p>
-                            <p className='text-lg md:text-xl leading-relaxed text-black text-start'>
-                                All orders are carefully packaged and fully insured. Track your
-                                shipment in real-time through our dedicated tracking portal.
-                            </p>
+                            
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
@@ -68,11 +62,7 @@ export default function FAQ() {
                                 policy. If you&apos;re not completely satisfied, simply return the
                                 item in its original condition.
                             </p>
-                            <p className='text-lg md:text-xl leading-relaxed text-black text-start'>
-                                Our hassle-free return process includes free return shipping and
-                                full refunds processed within 48 hours of receiving the returned
-                                item.
-                            </p>
+                            
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

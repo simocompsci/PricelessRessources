@@ -54,17 +54,17 @@ export default function Features() {
                             <div className="relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
 
                                 <img
-                                    src="/images/Knight.jpg"
+                                    src="/images/balazs-ketyi-xIcr9ygfhIk-unsplash.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
 
 
-                                <div className="absolute right-0 flex flex-col gap-4 pr-1">
+                                {/*<div className="absolute right-0 flex flex-col gap-4 pr-1">
                                     <div className="w-70 h-40 bg-gray-200 rounded-2xl"></div>
                                     <div className="w-70 h-40 bg-gray-200 rounded-2xl"></div>
                                     <div className="w-70 h-40 bg-gray-200 rounded-2xl"></div>
-                                </div>
+                                </div>*/}
                             </div>
 
 
@@ -72,15 +72,15 @@ export default function Features() {
 
                         <div className="grid grid-cols-1 md:grid-cols-2 items-center bg-black py-15 md:py-5">
                             {/* 🖼️ Image section */}
-                            <div className="order-2 md:order-1 relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-4">
+                            <div className="order-2 md:order-1 relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-4 md:my-8">
                                 <img
-                                    src="/images/Knight.jpg"
+                                    src="/images/balazs-ketyi-xIcr9ygfhIk-unsplash.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
 
-                                <div className="absolute left-0 top-40 w-70 h-40 bg-gray-200 rounded-2xl pl-1"></div>
-                                <div className="absolute right-0 bottom-40 w-70 h-40 bg-gray-200 rounded-2xl pr-1"></div>
+                                {/*<div className="absolute left-0 top-40 w-70 h-40 bg-gray-200 rounded-2xl pl-1"></div>
+                                <div className="absolute right-0 bottom-40 w-70 h-40 bg-gray-200 rounded-2xl pr-1"></div>*/}
                             </div>
 
                             {/* 📝 Text section */}
@@ -128,13 +128,13 @@ export default function Features() {
                             <div className="relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
 
                                 <img
-                                    src="/images/Knight.jpg"
+                                    src="/images/balazs-ketyi-xIcr9ygfhIk-unsplash.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
 
 
-                                <div className="absolute left-0 w-80 h-70 bg-gray-200 rounded-2xl pl-1"></div>
+                                {/*<div className="absolute left-0 w-80 h-70 bg-gray-200 rounded-2xl pl-1"></div>*/}
                             </div>
 
 
