@@ -54,7 +54,7 @@ export default function Features() {
                             <div className="relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
 
                                 <img
-                                    src="/images/balazs-ketyi-xIcr9ygfhIk-unsplash.jpg"
+                                    src="/images/diego-soares-tDgyZNDwWjE-unsplash.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
@@ -74,7 +74,7 @@ export default function Features() {
                             {/* 🖼️ Image section */}
                             <div className="order-2 md:order-1 relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-4 md:my-8">
                                 <img
-                                    src="/images/balazs-ketyi-xIcr9ygfhIk-unsplash.jpg"
+                                    src="/images/diego-soares-tDgyZNDwWjE-unsplash.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
@@ -128,7 +128,7 @@ export default function Features() {
                             <div className="relative flex justify-center items-center p-4 sm:p-6 mt-8 md:p-8 mx-4 sm:mx-6 md:mx-8">
 
                                 <img
-                                    src="/images/balazs-ketyi-xIcr9ygfhIk-unsplash.jpg"
+                                    src="/images/diego-soares-tDgyZNDwWjE-unsplash.jpg"
                                     alt="Product Preview"
                                     className="w-full max-w-sm h-[600px] sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-3xl object-cover"
                                 />
