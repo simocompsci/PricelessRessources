@@ -1,5 +1,6 @@
 import React from 'react'
 import { Bungee_Shade, Mona_Sans, DM_Sans } from 'next/font/google'
+import { Input } from '@/components/ui/input'
 
 const BungeeShade = Bungee_Shade({
   subsets: ['latin'],
@@ -29,30 +30,30 @@ const ContactUs = () => {
       <form className="w-full max-w-3xl space-y-6 mt-10">
         {/* First row: Name + Email */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <input
+          <Input
             type="text"
             placeholder="Your Name"
-            className="bg-gray-300 rounded-xl p-4 w-full outline-none focus:ring-2 focus:ring-gray-500 placeholder-gray-500"
+            className="bg-gray-200 p-4 w-full"
           />
-          <input
+          <Input
             type="email"
             placeholder="Your Email"
-            className="bg-gray-300 rounded-xl p-4 w-full outline-none focus:ring-2 focus:ring-gray-500 placeholder-gray-500"
+            className="bg-gray-200 p-4 w-full "
           />
         </div>
 
         {/* Subject */}
-        <input
+        <Input
           type="text"
           placeholder="Subject"
-          className="bg-gray-300 rounded-xl p-4 w-full outline-none focus:ring-2 focus:ring-gray-500 placeholder-gray-500"
+          className="bg-gray-200 p-4 w-full"
         />
 
         {/* Message */}
         <textarea
           placeholder="Your Message"
           rows="6"
-          className="bg-gray-300 rounded-xl p-4 w-full outline-none focus:ring-2 focus:ring-gray-500 placeholder-gray-500"
+          className="bg-gray-200 rounded-xl p-4 w-full outline-none focus:ring-2 focus:ring-gray-500 placeholder-gray-500"
         ></textarea>
 
         {/* Submit button */}
