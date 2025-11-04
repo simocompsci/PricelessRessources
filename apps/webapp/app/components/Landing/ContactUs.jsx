@@ -1,6 +1,7 @@
 import React from 'react'
 import { Bungee_Shade, Mona_Sans, DM_Sans } from 'next/font/google'
 import { Input } from '@/components/ui/input'
+import { Textarea } from '@/components/ui/textarea'
 
 const BungeeShade = Bungee_Shade({
   subsets: ['latin'],
@@ -50,11 +51,11 @@ const ContactUs = () => {
         />
 
         {/* Message */}
-        <textarea
+        <Textarea
           placeholder="Your Message"
           rows="6"
           className="bg-gray-200 rounded-xl p-4 w-full outline-none focus:ring-2 focus:ring-gray-500 placeholder-gray-500"
-        ></textarea>
+        ></Textarea>
 
         {/* Submit button */}
         <button
