@@ -17,14 +17,13 @@ const Footer = () => {
       >
         <a
           href="mailto:contact@gmail.com"
-          className="underline underline-offset-4 hover:text-gray-700 transition-colors break-all"
+          className="underline underline-offset-4"
         >
           contact@gmail.com
         </a>
 
         <a
           href="tel:+21266325487"
-          className="hover:text-gray-700 transition-colors"
         >
           (+212)66325487
         </a>
@@ -32,7 +31,7 @@ const Footer = () => {
 
       {/* Bottom row: copyright */}
       <div
-        className={`${MonaSans.className} flex flex-row  items-center justify-center md:justify-start md:ml-16 mt-8 gap-2 text-lg sm:text-2xl md:text-3xl font-semibold text-primary text-center`}
+        className={`${MonaSans.className} flex flex-row  items-center justify-center md:justify-start md:ml-19 mt-8 gap-2 text-lg sm:text-2xl md:text-3xl font-semibold text-primary text-center`}
       >
         <FaRegCopyright className="text-xl" />
         <p>2025/2026 all rights reserved</p>

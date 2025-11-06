@@ -3,8 +3,6 @@ import React, { useState, useEffect } from "react";
 import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 import { Bungee_Shade } from 'next/font/google'
-import { Mona_Sans } from 'next/font/google'
-import { DM_Sans } from 'next/font/google'
 
 const BungeeShade = Bungee_Shade({
     subsets: ['latin'],
@@ -12,17 +10,6 @@ const BungeeShade = Bungee_Shade({
     display: 'swap',
 })
 
-const MonaSans = Mona_Sans({
-    subsets: ['latin'],
-    weight: '800',
-    display: 'swap',
-})
-
-const DmSans = DM_Sans({
-    subsets: ['latin'],
-    weight: '800',
-    display: 'swap',
-})
 
 
 export default function Hero() {
